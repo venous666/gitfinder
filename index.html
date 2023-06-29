@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Caprasimo&family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+    <title>amo os gays</title>
+</head>
+<body>
+    <div class="input">
+        <h1>
+            GitHub Profile Finder
+        </h1>
+
+        <input type="text" id="username" placeholder="User Name">
+
+        <input type="button" value="Submit" id="submit" onclick="submit()">
+    </div>
+
+
+    <div class="output">
+        <h1>
+            Informations
+        </h1>
+
+        <div id="img">
+            <img src="pp.png">
+        </div>
+        <br>
+
+        <p>Name</p>
+        <input type="text" id="name" placeholder="Name" readonly>
+
+        <br>
+
+        <p>Nickname</p>
+        <input type="text" id="nickname" placeholder="Nickname" readonly>
+
+
+        <br>
+
+        <p>Number of repositories</p>
+        <input type="text" id="qttRepos" placeholder="Number of repositories" readonly>
+
+        <br>
+
+        <p>Followers</p>
+        <input type="text" id="qttFollowers" placeholder="Followers" readonly>
+
+        <br>
+
+        <p>Following</p>
+        <input type="text" id="qttFollowing" placeholder="Following" readonly>
+
+        <br>
+        <p>Link to repositories</p>
+        <input type="text" id="reposLink" placeholder="Link to repositories" readonly>
+        
+        <br>
+        
+        <!-- <input type="button" value="Clean" id="submit" onclick="clean()"> -->
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

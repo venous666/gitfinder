@@ -1,0 +1,56 @@
+body{
+    flex: 1;
+    align-self: center;
+    text-align: center;
+    margin: 8%;
+    background-image: url(https://i.pinimg.com/564x/77/ce/6f/77ce6f0c6327de75d1c6ff5b9c84b2dd.jpg);
+    background-size: 100%;
+    font-family: 'Caprasimo', cursive;
+}
+
+.input {
+    margin: 6%;
+    padding: 4%;
+    background-color: #ffc4fa;
+    border-bottom: solid#ff69b4;
+    border-right: solid #ff69b4;
+    border-radius: 20px;
+}
+
+
+h1 {
+    color: #ff69b4;
+}
+
+#submit {
+    background-color:  rgb(240, 115, 177);
+    color: white;
+}
+
+#submit:hover {
+    background-color:  rgb(240, 115, 177);
+    color: white;
+}
+
+.output {
+    margin: 15%;
+    padding: 6%;
+    background-color: rgb(240, 115, 177);
+    border-radius: 15px;
+}
+
+img {
+    border-radius: 500px;
+    width: 35%;
+}
+
+p {
+    color: rgb(240, 115, 177);
+}
+
+input {
+    padding: 2%;
+    border-radius: 10px;
+    margin: 1%;
+    border: #fffefe;
+}
