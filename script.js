@@ -23,20 +23,4 @@ function submit() {
         })
 }
 
-function clean() {
-    let userName = document.getElementById("username")
-    let outputImg = document.getElementById("img")
-    let outputName = document.getElementById("name")
-    let outputNickname = document.getElementById("nickname")
-    let outputQttRepos = document.getElementById("qttRepos")
-    let outputQttFollowers = document.getElementById("qttFollowers")
-    let outputQttFollowing = document.getElementById("qttFollowing")
-    let outputReposLink = document.getElementById("reposLink")
 
-    outputName.value = ""
-    outputNickname.value = ""
-    outputQttRepos.value = ""
-    outputQttFollowers.value = ""
-    outputQttFollowing.value = ""
-    outputReposLink.value = ""
-}
